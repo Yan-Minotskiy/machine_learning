@@ -9,4 +9,4 @@ w = w.to(device)
 function =  (w + 7).log().log().prod()
 function.backward()
                       
-#print(w.grad) # Код для самопроверки
+#print(w.grad) 
