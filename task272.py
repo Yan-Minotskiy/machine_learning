@@ -10,4 +10,4 @@ for _ in range(500):
     w.data -=  alpha * w.grad
     w.grad.zero_()
 
-#print(w)
+print(w)
