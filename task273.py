@@ -11,4 +11,4 @@ for _ in range(500):
     optimizer.step()
     optimizer.zero_grad()
 
-#print(w)
+print(w)

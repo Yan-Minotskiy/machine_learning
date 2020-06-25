@@ -1,11 +1,11 @@
 import torch
 import matplotlib.pyplot as plt
 
-def target_function(x):
+def target_function(x): # функция, значения которой мы будем предсказывать
     return 2**x * torch.sin(2**-x)
 
 class RegressionNet(torch.nn.Module):
-    def __init__(self, n_hidden_neurons):
+    def __init__(self, n_hidden_neurons): # праметр: количество скрытых слоёв сети
         super().__init__()
         self.fc1 = torch.nn.Linear(1, n_hidden_neurons)
         self.act1 = torch.nn.Sigmoid()
@@ -21,7 +21,7 @@ class RegressionNet(torch.nn.Module):
         x = self.fc3(x)
         return x
 
-net = RegressionNet(100)
+net = RegressionNet(100) # инициализация нейронной сети
 
 # ------Dataset preparation start--------:
 x_train =  torch.linspace(-10, 5, 100)
@@ -60,6 +60,8 @@ def predict(net, x, y):
     plt.legend(loc='upper left')
     plt.xlabel('$x$')
     plt.ylabel('$y$')
+    print(((y.numpy() - y_pred.data.numpy()) ** 2).mean())
+    plt.show()
 
 
 predict(net, x_validation, y_validation)
