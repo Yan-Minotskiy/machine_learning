@@ -22,6 +22,22 @@
 
 ## Импорт репозитория и установка инструментов для работы с ним у себя на компьютере
 
-## Список источников
+## Список полезных источников
+
 https://yandex.ru/turbo/internet-technologies.ru/s/articles/matricy-i-massivy-numpy-v-python.html
+
+### Курсы
+1. Курс лекций по машинному обучению К. В. Воронцова - http://www.machinelearning.ru/wiki/index.php?title=Машинное_обучение_%28курс_лекций%2C_К.В.Воронцов%29
+2. Курс "Введение в Data Science и машинное обучение" на платформе Stepik - https://stepik.org/course/4852
+3. Курс "Нейронные сети и компьютерное зрение" на платформе Stepik - https://stepik.org/course/50352
+
+### Документация к библиотекам
+1. Pandas - https://pandas.pydata.org/
+2. PyTorch - https://pytorch.org/
+3. Scikit learn - https://scikit-learn.org/stable/index.html
+4. Matplotlib - https://matplotlib.org/
+5. Saborn - https://seaborn.pydata.org/
+
+### Платформа для практики в машинном обучении
+Kaggle - https://www.kaggle.com/
 
