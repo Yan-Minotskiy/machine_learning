@@ -1,31 +1,6 @@
-# Изучение технологий машинного обучения
+# Математическое описание машинного обучения
 
-### Задачи выполняемые с помощью машинного обучения
-- Восстановление зависимоти (регрессия)
-- Бинарная классификация
-- Многоклассовая классификация
-- Локализация (поиск объекта на изображении)
-- Сегментация (отделение объекта от фона)
-- Сжатие размерности
-- SuperResolution (увеличение расширения)
-
-### Подготовка данных к машинному обучению
-Подготовка данных к машинному обучению происходит в основном с помощью библотеки pandas. В файле [PandasTutorial.ipynb](https://github.com/Yan-Minotskiy/mlstepik/blob/master/PandasTutorial.ipynb) приведены основные команды для обработки массивов данных.
-
-### Визуализация данных
-Основные формы визуализации данных в файле [Visualisation.ipynb](https://github.com/Yan-Minotskiy/mlstepik/blob/master/Visualisation.ipynb).
-Вот мои примеры применения визуализации:
-
-Визуализация решения задачи классификации [classificator.py](https://github.com/Yan-Minotskiy/mlstepik/blob/master/classificator.py "classificator.py")
-![](https://github.com/Yan-Minotskiy/mlstepik/blob/master/img/classificator_result.png)
-
-Значения функиии потерь и точности предсказания во время обучения в задаче [mnist_net.py](https://github.com/Yan-Minotskiy/mlstepik/blob/master/mnist_net.py)
-![](https://github.com/Yan-Minotskiy/mlstepik/blob/master/img/loss_function_mnist_first_epoch.png)
-![](https://github.com/Yan-Minotskiy/mlstepik/blob/master/img/mnist_accuracy.png)
-
-Результат обучения сети для регрессии [regression.py](https://github.com/Yan-Minotskiy/mlstepik/blob/master/regression.py "regression.py")
-
-![](https://github.com/Yan-Minotskiy/mlstepik/blob/master/img/regression_learning_outcome.png)
+В машинном обучении и аналитике часто приходится сталкиваться с матрицами и векторами. Для работы с ними хорошо подходит библиотека NumPy. В файле [NumPyTutorial.ipynb](./NumPyTutorial.ipynb) я продемонстрировал примеры базовых операций с матрицами с помощью этого фрейемворка.
 
 ### Метрики
 
@@ -121,11 +96,8 @@
 #### Adam
 `torch.optim.Adam(<веса>, lr=<шаг оптимизатора>)`
 
-####Планировщик
+### Планировщик
 Механизм изменение шага обучения во время процесса обучения
-
-
-### Свёрточные нейронные сети
 
 
 
